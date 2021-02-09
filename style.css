@@ -9,7 +9,10 @@ body{
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(31, 29, 29, 0.315);
+    height: 200px;
+    background-clip: padding-box;
+    width: 100%;
+    
 }
 
 .header{
@@ -64,7 +67,47 @@ li a{
  }
 button{
     padding: 15px 20px 15px 20px;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: transparent;
     color: white;
 }
+
+.flex-container{
+
+    margin-top: 500px;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-container h2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.text{
+    color: grey;
+}
+
+.flex{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+}
+ .feelings{
+        text-align: center;
+        padding: 10px;
+    }
+    .feelings h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .feelings p{
+        color: gray;
+    }
+
+    .fas{
+        color: rgb(207, 156, 15);
+    }
