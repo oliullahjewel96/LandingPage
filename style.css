@@ -111,3 +111,21 @@ p.text{
     .fas{
         color: rgb(207, 156, 15);
     }
+
+    .row{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .col{
+        padding: 15px;
+    }
+
+    img{
+        height: 200px;
+        width: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        object-fit: cover;
+    }
