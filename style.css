@@ -5,6 +5,11 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url("img/marek-levak-RErhr8r1q6s-unsplash.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(31, 29, 29, 0.315);
 }
 
 .header{
@@ -38,7 +43,28 @@ li a{
 }
 .fab{
     padding: 15px;
+    color:white;
 }
 .fab:hover{
+    color: rgb(85, 177, 177);
+}
+.container{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+.container h1{
+    font-weight: 600;
+}
+ hr{
+     width: 50%;
+     color: white;
+     
+ }
+button{
+    padding: 15px 20px 15px 20px;
+    border: 1px solid white;
+    background-color: transparent;
     color: white;
 }
