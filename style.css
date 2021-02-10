@@ -122,10 +122,41 @@ p.text{
     .col{
         padding: 15px;
     }
+    .col p{
+        color: grey;
+    }
 
     img{
         height: 200px;
         width: 400px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         object-fit: cover;
+    }
+
+    .gallery-heading{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .gallery-heading h4{
+        color: rgba(25, 43, 7, 0.849);
+        font-size: 24px;
+    }
+    .image{
+        flex: 40%;
+        object-fit: cover;
+        padding-left: 80px;
+        padding-top: 40px;
+    }
+    .description{
+        flex: 60%;
+        padding: 20px;
+    }
+    .description h4 .fas{
+        color: rgba(25, 43, 7, 0.849);
+    }
+    .btn{
+        padding: 15px 30px 15px 3opx;
+        background-color: rgb(54, 130, 192);
+        border: 2px solid white;
     }
