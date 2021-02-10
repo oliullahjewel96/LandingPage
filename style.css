@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("img/marek-levak-RErhr8r1q6s-unsplash.jpg");
+    background-image: url("img/marek-levak-RErhr8r1q6s-unsplash-min.jpg");
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,3 +160,43 @@ p.text{
         background-color: rgb(54, 130, 192);
         border: 2px solid white;
     }
+
+
+  .row-form{
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 20px;
+      grid-column-gap:10px;
+  }
+  .col-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 15px;
+  }
+  .form-control{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      justify-content: center;
+      color: grey;
+  }
+  input[type=text]{
+      padding: 5px;
+      border: none;
+      border-bottom: 1px solid grey;
+  }
+  textarea{
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+  
+  .col-middle{
+      display: grid;
+      color: grey;
+  }
+  .row-text-middle{
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
+  
