@@ -199,4 +199,28 @@ p.text{
       display: grid;
       grid-template-columns: auto auto auto;
   }
-  
+
+  .flex-social{
+      display: flex;
+      padding: 10px;
+      background-color: rgb(12, 199, 199);
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .paragraph{
+      padding-left: 20px;
+      color: white;
+      font-size: 20px;
+  }
+  .footer{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 5px 20px 5px 20px;
+      background-color: rgb(20, 20, 51);
+      color: white;
+  }
+  .All-link ul{
+      list-style-type: none;
+      align-items: center;
+  }
